@@ -1,0 +1,108 @@
+
+
+body{
+  margin: 0;
+  padding: 1rem;
+}
+@keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .wave {
+    display: inline-block;
+    transform-origin: 70% 70%;
+    animation: wave-animation 2s infinite;
+  }
+  
+  /* Ensure dark theme styles apply to the skills page */
+  .dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+ .dark-mode .card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+  .dark-theme .skills h2 {
+    color: #00c6ff;
+  }
+
+/* Dark theme */
+.dark-theme {
+    background-color: #121212;
+    color: #2259f1;
+  }
+  
+  .dark-theme header,
+    .dark-theme .contact{
+        
+        color: white;
+    }
+  .dark-theme footer,
+    .dark-theme .card {
+        background-color: #1f1f1f;
+        color: white;
+    }
+  .dark-theme .sidebar{color: white;}
+  .dark-theme main {
+    background-color: #1f1f1f;
+    color: #0e0d27;
+  }
+  
+  .dark-theme a {
+    color: #00c6ff;
+  }
+  
+  .dark-theme .theme-toggle {
+    color: white;
+  }
+  .contact, h1{
+    text-align: center;
+
+  }
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact form label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact form button:hover {
+    background-color: #005fa3;
+  }
+  
+  
+
+
+
